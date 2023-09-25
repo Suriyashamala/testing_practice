@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="Testng Project">
+        <classes>
+            <class name="tests.IncludeExcludeTest">
+                <methods>
+<!--                    <include name="Test2"></include>-->
+                </methods>
+            </class>
+            <class name="attributes.PriorityAttributes">
+                <methods>
+<!--                    <include name="Test2"></include>-->
+<!--                    <exclude name="Test4"></exclude>-->
+                </methods>
+            </class>
+            <class name="attributes.EnableDisableAttributes">
+                <methods>
+                    <include name="bike"></include>
+<!--                    <exclude name="car"></exclude>-->
+                </methods>
+            </class>
+            <class name="attributes.InvocationCountAttributes">
+                <methods>
+                     <include name="buds"></include>
+<!--                    <exclude name="blossoms"></exclude>-->
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
