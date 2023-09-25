@@ -9,7 +9,6 @@ import pageobjects.StudentLoginPage;
 import java.time.Duration;
 
 public class AdminTest {
-
        @Test
        public void admintest(){
 
