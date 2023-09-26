@@ -8,12 +8,12 @@ public class DataProviderAttributes {
 
     @Test(dataProvider ="signIn-data")
     public void SignedTest(String username, String password) {
-        System.out.println(username + " " + password);
+        System.out.println(username + password);
     }
 
     @Test(dataProvider ="LoginIn-data",dataProviderClass = LoginInDataTest.class)
     public void LoggedTest(String username, String password) {
-        System.out.println(username + " " + password);
+        System.out.println(username + password);
     }
 
     @DataProvider(name="signIn-data")

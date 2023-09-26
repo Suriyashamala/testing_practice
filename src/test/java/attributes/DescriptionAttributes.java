@@ -8,7 +8,7 @@ public class DescriptionAttributes {
     public void SignIn() {
         System.out.println("test is executed");
     }
-    @Test(testName = "open-browser",description ="The browser is Opened")
+    @Test(testName = "open-browser", suiteName="Browser Test" ,description ="The browser is Opened")
     public void OpenBrowser() {
         System.out.println("test is executed");
     }
