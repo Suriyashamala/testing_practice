@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="258e113d-ad8b-493c-84c7-505b7054b756" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/dependency.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/attributes/DataProviderAttributes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/attributes/DataProviderAttributes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/attributes/DescriptionAttributes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/attributes/DescriptionAttributes.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +43,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ToolWindowRun.ShowToolbar&quot;: &quot;false&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Dell/IdeaProjects/Testing_practice&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
@@ -232,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695705918980</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="testng commit push">
+      <created>1695708745330</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1695708745330</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
