@@ -1,8 +1,7 @@
-package attributes;
+package DataProvider;
 
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-import tests.LoginInDataTest;
 
 public class DataProviderAttributes {
 
