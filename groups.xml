@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parameters Test">
+    <test verbose="2" preserve-order="true" name="Testng Project">
+        <groups>
+            <run>
+<!--                <include name="Group 1"></include>-->
+                <exclude name="Group 2"></exclude>
+            </run>
+        </groups>
+        <classes>
+            <class name="attributes.GroupsAttributes"></class>
+        </classes>
+    </test>
+</suite>
