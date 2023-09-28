@@ -1,4 +1,4 @@
-package attributes;
+package tests.attributes;
 
 import org.testng.annotations.Test;
 

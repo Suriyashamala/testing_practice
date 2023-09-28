@@ -8,7 +8,7 @@
         <parameter name="orange" value="10"></parameter>
 
         <classes>
-            <class name="attributes.ParametersAttributes"></class>
+            <class name="tests.attributes.ParametersAttributes"></class>
         </classes>
     </test>
 </suite>

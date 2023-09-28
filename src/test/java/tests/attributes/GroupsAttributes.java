@@ -1,24 +1,28 @@
 
-package attributes;
+package tests.attributes;
 
-import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class SoftDependsOnMethodAttributes {
-    @Test(dependsOnMethods = {"OpenBrowser"})
+public class GroupsAttributes {
+
+    @Test(groups ={"Group 2"})
     public void SignIn() {
         System.out.println("User has signed in successfully");
-        Assert.fail();
     }
-    @Test
+
+    @Test(groups ={"Group 1"})
     public void OpenBrowser() {
         System.out.println("the browser is opened");
     }
 
-    @Test(dependsOnMethods = {"SignIn"},alwaysRun = true)
+    @Test(groups ={"Group 3"})
     public void Logout() {
         System.out.println("The user has logged out successfully");
-//        Assert.fail();
+    }
+
+    @Test(groups = {"Group 1","Group 2"})
+    public void test1(){
+        System.out.println("Test1");
     }
 }
 

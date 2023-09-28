@@ -4,10 +4,10 @@
     <test verbose="2" preserve-order="true" name="Testng Project"
           parallel="methods" thread-count="2">
         <classes>
-<!--            <class name="attributes.DependsOnMethodAttributes"></class>-->
-<!--            <class name="attributes.DescriptionAttributes"></class>-->
-<!--            <class name="attributes.HardDependsOnMethodAttributes"></class>-->
-            <class name="attributes.SoftDependsOnMethodAttributes"></class>
+<!--            <class name="tests.attributes.DependsOnMethodAttributes"></class>-->
+<!--            <class name="tests.attributes.DescriptionAttributes"></class>-->
+<!--            <class name="tsest.attributes.HardDependsOnMethodAttributes"></class>-->
+            <class name="tests.attributes.SoftDependsOnMethodAttributes"></class>
         </classes>
     </test>
 </suite>

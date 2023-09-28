@@ -9,7 +9,7 @@
             </run>
         </groups>
         <classes>
-            <class name="attributes.GroupsAttributes"></class>
+            <class name="tests.attributes.GroupsAttributes"></class>
         </classes>
     </test>
 </suite>

@@ -8,19 +8,19 @@
 <!--                    <include name="Test2"></include>-->
                 </methods>
             </class>
-            <class name="attributes.PriorityAttributes">
+            <class name=" tests.attributes.PriorityAttributes">
                 <methods>
 <!--                    <include name="Test2"></include>-->
 <!--                    <exclude name="Test4"></exclude>-->
                 </methods>
             </class>
-            <class name="attributes.EnableDisableAttributes">
+            <class name=" tests.attributes.EnableDisableAttributes">
                 <methods>
                     <include name="bike"></include>
 <!--                    <exclude name="car"></exclude>-->
                 </methods>
             </class>
-            <class name="attributes.InvocationCountAttributes">
+            <class name=" tests.attributes.InvocationCountAttributes">
                 <methods>
                      <include name="buds"></include>
 <!--                    <exclude name="blossoms"></exclude>-->
