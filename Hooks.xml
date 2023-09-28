@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parameters Test">
+    <test verbose="2" preserve-order="true" name="Testng Project">
+<!--        <groups>-->
+
+<!--        </groups>-->
+        <classes>
+            <class name="tests.hooks.HooksTest"></class>
+<!--            <class name="tests.hooks.HooksExample"></class>-->
+
+        </classes>
+    </test>
+</suite>
