@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="258e113d-ad8b-493c-84c7-505b7054b756" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Listener.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/listeners/ExtentReportListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/listeners/LoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/listeners/MyListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageobjects/StudentLoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageobjects/StudentLoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/AdminLoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/AdminLoginTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +62,43 @@
       <recent name="tests" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/Dell/IdeaProjects/Testing_practice/Listener.xml">
+  <component name="RunManager" selected="TestNG.AdminLoginTest.admintest">
+    <configuration name="AdminLoginTest.admintest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Testng_practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.AdminLoginTest" />
+      <option name="METHOD_NAME" value="admintest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdminLoginTest.contacttest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Testng_practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.AdminLoginTest" />
+      <option name="METHOD_NAME" value="contacttest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="C:/Users/Dell/IdeaProjects/Testing_practice/Hooks.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Testng_practice" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/Hooks.xml" />
@@ -102,41 +136,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HardAssertions" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Testng_practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.assertions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.assertions" />
-      <option name="MAIN_CLASS_NAME" value="tests.assertions.HardAssertions" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HardAssertions.adminTest2" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Testng_practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.assertions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.assertions" />
-      <option name="MAIN_CLASS_NAME" value="tests.assertions.HardAssertions" />
-      <option name="METHOD_NAME" value="adminTest2" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="HooksExample" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Testng_practice" />
       <extension name="coverage">
@@ -156,19 +155,19 @@
     </configuration>
     <list>
       <item itemvalue="TestNG.DataProviderAttributes" />
+      <item itemvalue="TestNG.AdminLoginTest.admintest" />
+      <item itemvalue="TestNG.AdminLoginTest.contacttest" />
       <item itemvalue="TestNG.C:/Users/Dell/IdeaProjects/Testing_practice/Listener.xml" />
       <item itemvalue="TestNG.C:/Users/Dell/IdeaProjects/Testing_practice/Hooks.xml" />
-      <item itemvalue="TestNG.HardAssertions" />
-      <item itemvalue="TestNG.HardAssertions.adminTest2" />
       <item itemvalue="TestNG.HooksExample" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.AdminLoginTest.admintest" />
+        <item itemvalue="TestNG.AdminLoginTest.contacttest" />
         <item itemvalue="TestNG.C:/Users/Dell/IdeaProjects/Testing_practice/Listener.xml" />
         <item itemvalue="TestNG.C:/Users/Dell/IdeaProjects/Testing_practice/Hooks.xml" />
         <item itemvalue="TestNG.HooksExample" />
-        <item itemvalue="TestNG.HardAssertions" />
-        <item itemvalue="TestNG.HardAssertions.adminTest2" />
       </list>
     </recent_temporary>
   </component>
@@ -265,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695883918998</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="testng commit push">
+      <created>1696248659661</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1696248659661</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

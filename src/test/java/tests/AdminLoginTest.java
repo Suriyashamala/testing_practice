@@ -29,7 +29,6 @@ public class AdminLoginTest {
     @Test
     public void contacttest() {
     }
-
     @Test
     public void invalidtest() {}
 
