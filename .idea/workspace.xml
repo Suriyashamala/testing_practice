@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="258e113d-ad8b-493c-84c7-505b7054b756" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/configFileReadTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/config 1.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/InvalidTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/InvalidTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +33,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
@@ -39,21 +45,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;ToolWindowRun.ShowToolbar&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Dell/IdeaProjects/Testing_practice&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ToolWindowRun.ShowToolbar": "false",
+    "last_opened_file_path": "C:/Users/Dell/IdeaProjects/Testing_practice/src/test/resources",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "terminal"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="pageobjects" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Dell\IdeaProjects\Testing_practice\src\test\resources" />
       <recent name="C:\Users\Dell\IdeaProjects\Testing_practice" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -62,34 +72,8 @@
       <recent name="attributes" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FilterTest">
-    <configuration name="FilterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tests.FilterTest" />
-      <module name="Testng_practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SearchTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tests.SearchTest" />
-      <module name="Testng_practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AdminLoginTest.admintest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.IncludeExcludeTest.Test3">
+    <configuration name="AdminTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Testng_practice" />
       <extension name="coverage">
         <pattern>
@@ -98,16 +82,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.AdminLoginTest" />
-      <option name="METHOD_NAME" value="admintest" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="tests.AdminTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AdminLoginTest.contacttest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ContactTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Testng_practice" />
       <extension name="coverage">
         <pattern>
@@ -116,19 +99,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.AdminLoginTest" />
-      <option name="METHOD_NAME" value="contacttest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C:/Users/Dell/IdeaProjects/Testing_practice/Listener.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Testng_practice" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/Listener.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="MAIN_CLASS_NAME" value="tests.ContactTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -152,21 +124,73 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="IncludeExcludeTest.Test3" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Testng_practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.IncludeExcludeTest" />
+      <option name="METHOD_NAME" value="Test3" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InvalidTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Testng_practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.InvalidTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="configFileReadTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Testng_practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.configFileReadTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.FilterTest" />
-      <item itemvalue="Application.SearchTest" />
       <item itemvalue="TestNG.DataProviderAttributes" />
-      <item itemvalue="TestNG.AdminLoginTest.admintest" />
-      <item itemvalue="TestNG.AdminLoginTest.contacttest" />
-      <item itemvalue="TestNG.C:/Users/Dell/IdeaProjects/Testing_practice/Listener.xml" />
+      <item itemvalue="TestNG.AdminTest" />
+      <item itemvalue="TestNG.ContactTest" />
+      <item itemvalue="TestNG.IncludeExcludeTest.Test3" />
+      <item itemvalue="TestNG.InvalidTest" />
+      <item itemvalue="TestNG.configFileReadTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FilterTest" />
-        <item itemvalue="Application.SearchTest" />
-        <item itemvalue="TestNG.AdminLoginTest.admintest" />
-        <item itemvalue="TestNG.AdminLoginTest.contacttest" />
-        <item itemvalue="TestNG.C:/Users/Dell/IdeaProjects/Testing_practice/Listener.xml" />
+        <item itemvalue="TestNG.IncludeExcludeTest.Test3" />
+        <item itemvalue="TestNG.ContactTest" />
+        <item itemvalue="TestNG.configFileReadTest" />
+        <item itemvalue="TestNG.AdminTest" />
+        <item itemvalue="TestNG.InvalidTest" />
       </list>
     </recent_temporary>
   </component>
@@ -277,7 +301,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696311615197</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="testng commit push">
+      <created>1697516565369</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1697516565369</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -294,5 +325,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="testng commit push" />
     <option name="LAST_COMMIT_MESSAGE" value="testng commit push" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
